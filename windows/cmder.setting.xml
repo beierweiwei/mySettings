@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2019-01-17 16:13:08" build="180626">
-			<value name="Language" type="string" data="en"/>
+		<key name=".Vanilla" modified="2019-12-12 20:50:17" build="191012">
+			<value name="Language" type="string" data="zh"/>
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
-			<value name="StartTasksName" type="string" data="{bash::bash}"/>
+			<value name="StartTasksName" type="string" data="{bash1:bash}"/>
 			<value name="StartFarFolders" type="hex" data="00"/>
 			<value name="StartFarEditors" type="hex" data="00"/>
 			<value name="StartCreateDelay" type="ulong" data="100"/>
@@ -54,8 +54,8 @@
 			<value name="FadeInactiveHigh" type="hex" data="C8"/>
 			<value name="ConVisible" type="hex" data="00"/>
 			<value name="UseInjects" type="hex" data="01"/>
-			<value name="SetDefaultTerminal" type="hex" data="00"/>
-			<value name="SetDefaultTerminalStartup" type="hex" data="00"/>
+			<value name="SetDefaultTerminal" type="hex" data="01"/>
+			<value name="SetDefaultTerminalStartup" type="hex" data="01"/>
 			<value name="SetDefaultTerminalStartupTSA" type="hex" data="01"/>
 			<value name="DefaultTerminalAgressive" type="hex" data="01"/>
 			<value name="DefaultTerminalNoInjects" type="hex" data="00"/>
@@ -81,7 +81,7 @@
 			<value name="StoreTaskbarCommands" type="hex" data="00"/>
 			<value name="JumpListAutoUpdate" type="hex" data="01"/>
 			<value name="SaveCmdHistory" type="hex" data="00"/>
-			<value name="SingleInstance" type="hex" data="00"/>
+			<value name="SingleInstance" type="hex" data="01"/>
 			<value name="ShowHelpTooltips" type="hex" data="01"/>
 			<value name="Multi" type="hex" data="01"/>
 			<value name="Multi.ShowButtons" type="hex" data="01"/>
@@ -103,15 +103,15 @@
 			<value name="Multi.SplitWidth" type="hex" data="04"/>
 			<value name="Multi.SplitHeight" type="hex" data="04"/>
 			<value name="KeyboardHooks" type="hex" data="02"/>
-			<value name="FontName" type="string" data="Consolas"/>
-			<value name="FontName2" type="string" data="Lucida Console"/>
+			<value name="FontName" type="string" data="Noto Mono for Powerline"/>
+			<value name="FontName2" type="string" data="Ubuntu Mono derivative Powerlin"/>
 			<value name="FontAutoSize" type="hex" data="00"/>
 			<value name="FontSize" type="ulong" data="16"/>
-			<value name="FontSizeX" type="ulong" data="0"/>
+			<value name="FontSizeX" type="ulong" data="8"/>
 			<value name="FontUseDpi" type="hex" data="01"/>
 			<value name="FontUseUnits" type="hex" data="00"/>
 			<value name="FontSizeX2" type="ulong" data="0"/>
-			<value name="FontSizeX3" type="ulong" data="0"/>
+			<value name="FontSizeX3" type="ulong" data="8"/>
 			<value name="FontCharSet" type="hex" data="00"/>
 			<value name="Anti-aliasing" type="ulong" data="6"/>
 			<value name="FontBold" type="hex" data="00"/>
@@ -124,22 +124,22 @@
 			<value name="bgImageColors" type="dword" data="ffffffff"/>
 			<value name="bgOperation" type="hex" data="00"/>
 			<value name="bgPluginAllowed" type="hex" data="01"/>
-			<value name="AlphaValue" type="hex" data="F8"/>
+			<value name="AlphaValue" type="hex" data="CD"/>
 			<value name="AlphaValueSeparate" type="hex" data="01"/>
 			<value name="AlphaValueInactive" type="hex" data="EE"/>
 			<value name="UserScreenTransparent" type="hex" data="00"/>
 			<value name="ColorKeyTransparent" type="hex" data="00"/>
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
 			<value name="UseCurrentSizePos" type="hex" data="00"/>
-			<value name="AutoSaveSizePos" type="hex" data="00"/>
+			<value name="AutoSaveSizePos" type="hex" data="01"/>
 			<value name="Cascaded" type="hex" data="00"/>
 			<value name="IntegralSize" type="hex" data="01"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="-7"/>
-			<value name="ConWnd Y" type="long" data="-7"/>
-			<value name="LastMonitor" type="string" data="0,0,1920,1040"/>
-			<value name="ConWnd Width" type="dword" data="00000070"/>
-			<value name="ConWnd Height" type="dword" data="0000003e"/>
+			<value name="ConWnd X" type="long" data="0"/>
+			<value name="ConWnd Y" type="long" data="0"/>
+			<value name="LastMonitor" type="string" data="0,0,1920,1030"/>
+			<value name="ConWnd Width" type="dword" data="02000028"/>
+			<value name="ConWnd Height" type="dword" data="02000064"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
@@ -193,8 +193,8 @@
 			<value name="FarGotoEditorPath" type="string" data='"C:\Program Files\Sublime Text 3\sublime_text.exe" "%3:%1:%2"'/>
 			<value name="HighlightMouseRow" type="hex" data="00"/>
 			<value name="HighlightMouseCol" type="hex" data="00"/>
-			<value name="FixFarBorders" type="hex" data="01"/>
-			<value name="Anti-aliasing2" type="hex" data="00"/>
+			<value name="FixFarBorders" type="hex" data="00"/>
+			<value name="Anti-aliasing2" type="hex" data="01"/>
 			<value name="FixFarBordersRanges" type="string" data="2013-25C4;"/>
 			<value name="ExtendUCharMap" type="hex" data="01"/>
 			<value name="EnhanceGraphics" type="hex" data="00"/>
@@ -270,9 +270,9 @@
 			<value name="StatusBar.Hide.CPos" type="hex" data="01"/>
 			<value name="StatusBar.Hide.CSize" type="hex" data="01"/>
 			<value name="StatusBar.Hide.BSize" type="hex" data="01"/>
-			<value name="StatusBar.Hide.CurX" type="hex" data="00"/>
-			<value name="StatusBar.Hide.CurY" type="hex" data="00"/>
-			<value name="StatusBar.Hide.CurS" type="hex" data="00"/>
+			<value name="StatusBar.Hide.CurX" type="hex" data="01"/>
+			<value name="StatusBar.Hide.CurY" type="hex" data="01"/>
+			<value name="StatusBar.Hide.CurS" type="hex" data="01"/>
 			<value name="StatusBar.Hide.CurI" type="hex" data="00"/>
 			<value name="StatusBar.Hide.CellI" type="hex" data="01"/>
 			<value name="StatusBar.Hide.ConEmuPID" type="hex" data="01"/>
@@ -287,7 +287,7 @@
 			<value name="StatusBar.Hide.Title" type="hex" data="00"/>
 			<value name="StatusBar.Hide.Time" type="hex" data="01"/>
 			<value name="StatusBar.Hide.Resize" type="hex" data="00"/>
-			<value name="Tabs" type="hex" data="01"/>
+			<value name="Tabs" type="hex" data="02"/>
 			<value name="TabsLocation" type="hex" data="01"/>
 			<value name="TabIcons" type="hex" data="01"/>
 			<value name="OneTabPerGroup" type="hex" data="01"/>
@@ -320,8 +320,8 @@
 			<value name="HideInactiveConsoleTabs" type="hex" data="00"/>
 			<value name="ShowFarWindows" type="hex" data="01"/>
 			<value name="TryToCenter" type="hex" data="01"/>
-			<value name="CenterConsolePad" type="ulong" data="0"/>
-			<value name="ShowScrollbar" type="hex" data="02"/>
+			<value name="CenterConsolePad" type="ulong" data="4"/>
+			<value name="ShowScrollbar" type="hex" data="00"/>
 			<value name="ScrollBarAppearDelay" type="ulong" data="100"/>
 			<value name="ScrollBarDisappearDelay" type="ulong" data="1000"/>
 			<value name="IconID" type="ulong" data="1"/>
@@ -582,8 +582,8 @@
 				<value name="DndRKey" type="hex" data="A2"/>
 				<value name="WndDragKey" type="dword" data="00121101"/>
 			</key>
-			<key name="Tasks" modified="2019-01-17 16:13:08" build="180626">
-				<value name="Count" type="long" data="9"/>
+			<key name="Tasks" modified="2019-12-11 15:10:51" build="191012">
+				<value name="Count" type="long" data="10"/>
 				<key name="Task1" modified="2019-01-17 16:13:08" build="180626">
 					<value name="Name" type="string" data="{cmd::Cmder as Admin}"/>
 					<value name="Flags" type="dword" data="00000000"/>
@@ -656,14 +656,23 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='cmd /c ""%ConEmuDir%\..\git-for-windows\bin\bash" --login -i"'/>
 				</key>
-				<key name="Task9" modified="2019-01-17 16:13:08" build="180626">
+				<key name="Task9" modified="2019-12-11 15:28:31" build="191012">
+					<value name="Name" type="string" data="{bash1:bash}"/>
+					<value name="Flags" type="dword" data="00000005"/>
+					<value name="Hotkey" type="dword" data="00000000"/>
+					<value name="GuiArgs" type="string" data=' /icon "%CMDER_ROOT%\icons\cmder.ico"'/>
+					<value name="Active" type="long" data="0"/>
+					<value name="Count" type="long" data="1"/>
+					<value name="Cmd1" type="string" data='-new_console:d:D:\myProject cmd /c ""%ProgramFiles%\git\bin\bash" --login -i"'/>
+				</key>
+				<key name="Task10" modified="2019-12-12 20:50:17" build="191012">
 					<value name="Name" type="string" data="{WSL::bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data='-icon "%USERPROFILE%\AppData\Local\lxss\bash.ico"'/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='set "PATH=%ConEmuBaseDirShort%\wsl;%PATH%" &amp; %ConEmuBaseDirShort%\conemu-cyg-64.exe --wsl -cur_console:pm:/mnt'/>
+					<value name="Cmd1" type="string" data='*set "PATH=%ConEmuBaseDirShort%\wsl;%PATH%" &amp; %ConEmuBaseDirShort%\conemu-cyg-64.exe --wsl -cur_console:pm:/mnt'/>
 				</key>
 			</key>
 			<key name="Apps" modified="2019-01-17 16:13:08" build="180626">
@@ -695,6 +704,10 @@
 					<value name="ColorTable15" type="dword" data="00ffffff"/>
 				</key>
 			</key>
+			<value name="AnsiLogCodes" type="hex" data="00"/>
+			<value name="AutoReloadEnvironment" type="hex" data="01"/>
+			<value name="AutoTrimSingleLine" type="hex" data="00"/>
+			<value name="StatusBar.Hide.InputGrouping" type="hex" data="01"/>
 		</key>
 	</key>
 </key>
